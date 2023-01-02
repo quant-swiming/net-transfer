@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yyl/workspace/net-transfer/include/tcpServer.h
+unordered_map
+-
+
+/home/yyl/workspace/net-transfer/include/tranServer.h
+./tcpServer.h
+/home/yyl/workspace/net-transfer/include/tcpServer.h
+
+/home/yyl/workspace/net-transfer/test/tranServerTest.cpp
+../include/tranServer.h
+/home/yyl/workspace/net-transfer/include/tranServer.h
+

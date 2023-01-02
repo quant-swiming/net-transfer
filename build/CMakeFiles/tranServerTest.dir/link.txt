@@ -1,0 +1,1 @@
+g++  -Wall -g  -rdynamic CMakeFiles/tranServerTest.dir/test/tranServerTest.cpp.o CMakeFiles/tranServerTest.dir/src/tranServer.cpp.o CMakeFiles/tranServerTest.dir/src/tcpServer.cpp.o  -o ../bin/test/tranServerTest 
